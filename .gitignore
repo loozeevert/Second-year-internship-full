@@ -1,0 +1,35 @@
+# Системное и кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Виртуальные окружения
+venv/
+env/
+.env
+
+# Логи и временные файлы обучения
+runs/
+wandb/
+*.log
+
+# Тяжелые датасеты и картинки (на GitHub не заливают гигабайты фото)
+datasets/
+data/
+*.jpg
+*.jpeg
+*.png
+# Оставляем только сгенерированные графики для отчета
+!results/plots/*.png
+
+# Тяжелые веса моделей
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Служебные файлы ОС
+.DS_Store
+Thumbs.db
+desktop.ini
