@@ -1,0 +1,8 @@
+path: data/raw/yolo_format
+train: images/train
+val: images/val
+
+names:
+  0: car
+  1: person
+  2: bicycle
